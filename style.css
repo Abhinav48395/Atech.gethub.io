@@ -134,9 +134,9 @@ hr{
     background-color: white;
 }
 
-.plat{
+/* .plat{
     background-image: url("asset/Rectangle\ 25775.png");
-}
+} */
 
 
 .nav-link{
@@ -152,3 +152,37 @@ hr{
     max-width: 1100px;
     border: 2px solid black;
 }
+
+
+
+
+
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(Rectangle\ 25775.png);
+    
+    max-width: 390px;
+  }
+  
+  .flex-container .cell {
+    
+    width: 130px;
+    margin: 0px;
+   
+    line-height: 90px;
+    font-size: 20px;
+    color: white;
+  }
+
+.flex-container .cell:hover{
+    
+    background-image: url(d.jpg);
+  
+}
+
+
+ 
